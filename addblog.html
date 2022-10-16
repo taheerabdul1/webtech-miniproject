@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Blog</title>
+    <link rel="stylesheet" href="reset.css" type="text/css">
+    <link rel="stylesheet" href="miniproject.css" type="text/css">
+</head>
+<header>
+    <h1>Abdul Taheer</h1>
+    <nav>
+        <ul>
+            <li><a href="home.html">Click here to go back home</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <article>
+        <section id="AddBlog">
+            <form id="form" method="POST" action="http://webprojects.eecs.qmul.ac.uk/un300/week4/week4_process.php">
+                <h2>ADD BLOG</h2>
+                <input type="text" name="title" placeholder="Title" id="title" style="width: 300px; height: 30px;">
+                <textarea id="blogtext" name="blogtext" rows="20" cols="60" placeholder="Blog"></textarea>
+                <input id="submit" class="button" type="submit" value="Post" style="background-color: pink; width: 200px; padding: 10px;">
+                <input class="button" type="reset" value="Clear" style="background-color: pink; width: 200px; padding: 10px;" onclick="resetFunction()">
+            </form>
+        </section>
+    </article>
+    <script src="script1.js"></script>
+</body>
+</html>

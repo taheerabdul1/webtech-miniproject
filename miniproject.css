@@ -1,0 +1,197 @@
+/*general style for website*/
+body{
+    background-color: pink;
+    color: black;
+}
+
+/*header style*/
+header{
+    position:static;
+    color: white;
+    background-color:red;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 2em;
+}
+
+/*navbar styling*/
+nav ul li{
+    display: inline;
+    font-size:0.75em;
+}
+nav ul li a:link{
+    text-decoration: underline;
+    color: white;
+}
+nav ul li a:visited{
+    text-decoration: underline;
+    color:pink;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    background-color: pink;
+}
+
+/*center all text*/
+form, section#Home, section#Education, section#AboutMe, section#SkillsandAchievements, section#Experience, section#Portfolio, section#ContactMe{
+    text-align: center;
+}
+
+/*about me page*/
+article#AboutMe{
+    margin-top:5%;
+}
+figure img{
+    border:3pt solid red;
+    border-radius:1em;
+}
+section#AboutMe figure img{
+    float:left;
+    width:50%;
+}
+section#AboutMe figure figcaption{
+    position:static;
+    float:left;
+    width:25%;
+    margin-left:-25%;
+    margin-top: 31.5%;
+    background-color: black;
+    color:pink;
+    opacity: 0.8;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+section#AboutMe h2, section#AboutMe p{
+    font-size:1.5em;
+}
+section#AboutMe h2{
+    padding-top:5%;
+}
+section#AboutMe div{
+    margin-right:40%;
+    margin-left:20%;
+}
+section#AboutMe{
+    margin-left:20%;
+}
+
+/*home page*/
+section#Home h2, section#Home p{
+    font-size:1.5em;
+}
+section#Home h2{
+    padding-top:50%;
+}
+section#Home div{
+    margin-right:35%;
+    margin-left:35%;
+}
+
+/*education page*/
+section#Education h2, section#Education p{
+    font-size:1.5em;
+}
+section#Education h2{
+    padding-top:10%;
+}
+section#Education div{
+    margin-right:35%;
+    margin-left:35%;
+}
+section#Education ul li{
+    font-size:1.3em;
+}
+
+/*skills page*/
+section#SkillsandAchievements h2, section#SkillsandAchievements p{
+    font-size:1.5em;
+}
+section#SkillsandAchievements h2{
+    padding-top:15%;
+}
+
+/*experience page*/
+section#Experience h2, section#Experience p{
+    font-size:1.5em;
+}
+section#Experience h2{
+    padding-top:5%;
+}
+section#Experience ul li{
+    font-size:1.3em;
+}
+section#Experience p{
+    padding-top: 1em;
+}
+
+/*portfolio page*/
+section#Portfolio h2, section#Portfolio p{
+    font-size:1.5em;
+}
+section#Portfolio h2{
+    padding-top:1%;
+}
+section#Portfolio table caption{
+    margin-top:1em;
+    font-size:1.5em;
+}
+section#Portfolio table{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:1.5em;
+}
+section#Portfolio table, section#Portfolio caption, section#Portfolio th, section#Portfolio td{
+    border: 1pt solid red;
+}
+section#Portfolio caption{
+    color: white;
+    background-color: red;
+}
+
+/*contact me page*/
+section#ContactMe h2, section#ContactMe p{
+    font-size:1.5em;
+}
+section#ContactMe h2{
+    padding-top:15%;
+}
+
+/*forms pages*/
+section#login{
+    margin-top:5em;
+}
+form{
+    background-color: red;
+    padding-bottom:2em;
+    margin-left:30%;
+    margin-right:30%;
+}
+section#login h2{
+    color:white;
+    padding-top: 1em;
+    font-size:1.4em;
+}
+section#login p{
+    padding:1em 0;
+}
+section#login button{
+    padding:1em 0;
+    padding-bottom:2em;
+}
+section#AddBlog{
+    margin-top:5em;
+}
+section#AddBlog h2{
+    color:white;
+    padding-top: 1em;
+    font-size:1.4em;
+}
+section#AddBlog p{
+    padding:1em 0;
+}
+section#AddBlog button{
+    padding:1em 0;
+    padding-bottom:2em;
+}
